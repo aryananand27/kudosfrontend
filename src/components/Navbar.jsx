@@ -20,7 +20,7 @@ const auth=sessionStorage.getItem("user");
         "sticky",background:"#000",top:"0",justifyContent:"space-between"}}>
             <Link to="/" style={{display:"flex",alignItems:"center"}} >
                 {/* <img src={logo} alt="logo" height={40} className='logo-img'/> */}
-                <Typography sx={{color:"#fff",paddingLeft:{sm:"4px",md:"4px",lg:"6px"},fontWeight:"bold",fontSize:{xs:"14px",sm:"18px",md:"20px",lg:"30px"}}} >MyHr</Typography>
+                <Typography sx={{color:"#fff",paddingLeft:{sm:"4px",md:"4px",lg:"6px"},fontWeight:"bold",fontSize:{xs:"14px",sm:"18px",md:"20px",lg:"30px"}}} >YourHr</Typography>
                
             </Link>
             <div>
