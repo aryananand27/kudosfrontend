@@ -11,3 +11,498 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.main-container{
+  width: 98vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form{
+  width: 27vw;
+  height: auto;
+  display: flex;
+  margin:auto auto;
+flex-direction: column;
+  box-shadow: 5px 5px 25px -5px rgba(0, 255, 136, 0.855);
+  border-radius: 12px;
+}
+.login-form{
+  width: 25vw;
+  height: auto;
+  display: flex;
+  margin:auto auto;
+flex-direction: column;
+  box-shadow: 5px 5px 25px -5px rgba(0, 255, 136, 0.855);
+  border-radius: 12px;
+}
+.main-heading{
+  color: white;
+  font-weight: 400;
+  font-family: 'Baloo Bhai 2', sans-serif;
+  letter-spacing: 0.003em;
+  text-transform: uppercase;
+  text-shadow: 5px 5px 5px rgb(4, 68, 80);
+  text-align: center;
+}
+.form input{
+  color: white;
+  height: 9%;
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 400;
+  width: 80%;
+  margin: 4px auto;
+  outline: none;
+  border: 2px solid gray;
+  border-radius: 10px;
+  text-align: center;
+  padding: 8px;
+}
+.form p{
+  font-size:13px;
+  color:white;
+  font-family: "Poppins", sans-serif;
+  text-shadow:0rem 0.4rem 0.5rem rgba(128, 128, 128, 0.489);
+  font-weight:550;
+  margin:25px 30px;
+}
+.login-form input{
+  color: white;
+  height: 8%;
+  border: none;
+  background: transparent;
+  font-size: 1em;
+  font-weight: 400;
+  width: 80%;
+  margin: 18px auto;
+  outline: none;
+  border: 2px solid gray;
+  border-radius: 10px;
+  text-align: center;
+  padding: 8px;
+}
+.login-form p{
+  font-size:13px;
+  color:white;
+  font-family: "Poppins", sans-serif;
+  text-shadow:0rem 0.4rem 0.5rem rgba(128, 128, 128, 0.489);
+  font-weight:550;
+  margin:25px 30px;
+}
+.regbtn{
+  color:white;
+  width: 83%;
+  height: 40px;
+  background-color: #61fb9966;
+ border-radius: 12px;
+ font-size: 20px;
+ font-weight: 400;
+  margin: 0px auto;
+ 
+  font-family: 'Baloo Bhai 2', sans-serif;
+  letter-spacing: 0.003em;
+  text-shadow: 5px 5px 5px rgb(4, 68, 80);
+  cursor: pointer;
+ }
+ .btn{
+  width:80px;
+  height:30px;
+  font-size: 15px;
+  font-family: "Baloo Bhai 2", sans-serif;
+  color: white;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.188);
+  border: 1px solid black;
+  margin: 2px;
+  border-radius: 2px;
+  cursor: pointer;
+  /* justify-self: right; */
+  ;
+}
+.uplbtn{
+  width:150px;
+  height:30px;
+  font-size: 15px;
+  font-family: "Baloo Bhai 2", sans-serif;
+  color: white;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.188);
+  border: 1px solid black;
+
+  border-radius: 2px;
+  cursor: pointer;
+  margin:4px 35px;
+  margin-bottom: 8px;
+}
+.fav-main-container{
+  width: 98vw;
+  height: 95vh;
+  display: flex;
+  flex-direction: row;
+ 
+  background: #000;
+  overflow-y: auto; 
+  justify-content: space-around;
+}
+
+@media screen and (max-width:1400px) {  
+  .login-form{
+    width: 27vw;
+    /* height: 68vh; */
+    height: auto;
+  }
+  .form{
+    width: 28vw;
+  }
+  .login-form input{
+    height: 7%;
+    font-size: 1em;
+    font-weight: 400;
+    width: 78%;
+    margin: 14px auto;
+  }
+  .form input{
+      height: 7%;
+      font-size: 16px;
+      font-weight: 400;
+      width: 78%;
+      margin: 14px auto;
+  }
+  .regbtn{
+      width: 83%;
+      height: 38px;
+      font-size: 20px;
+      font-weight: 500;
+   }
+   .main-heading{
+    font-size: 1.28em;
+    letter-spacing: 0.002em;
+   }
+   
+  
+}
+
+
+@media screen and (max-width:1200px) {
+  .login-form{
+    width: 29vw;
+    height: auto;
+  }
+  
+  .form{
+    width:31vw;
+    height: auto;
+  }
+  .login-form input{
+    height: 6.75%;
+    font-size: 15px;
+    font-weight: 400;
+    width: 76%;
+    margin: 14px auto;
+  }
+  .form input{
+    height: 6.75%;
+    font-size: 14px;
+    font-weight: 400;
+    width: 76%;
+    margin: 13px auto;
+  }
+  .regbtn{
+      width: 80%;
+      height: 38px;
+      font-size: 20px;
+      font-weight: 500;
+   }
+   .main-heading{
+    font-size: 1.28em;
+    letter-spacing: 0.002em;
+   }
+}
+@media screen and (max-width:1050px){
+  .main-container{
+    height: 95vh;
+  }
+  .login-form{
+    width: 40vw;
+    height: auto;
+  }
+  .form{
+    width: 38vw;
+  }
+  .login-form input{
+    height: 7%;
+    font-size: 16px;
+    font-weight: 400;
+    width: 80%;
+    margin: 14px auto;
+  }
+  .form input{
+    height: 7%;
+    font-size: 14px;
+    font-weight: 400;
+    width: 80%;
+    margin: 12px auto;
+  }
+  .regbtn{
+      width: 82%;
+      height: 37px;
+      font-size: 20px;
+      font-weight: 500;
+   }
+   .main-heading{
+    font-size: 1.28em;
+    letter-spacing: 0.002em;
+   }
+  
+
+}
+@media screen and (max-width:960px){
+  .main-container{
+    height: 95vh;
+  }
+  
+  .login-form{
+    width: 40vw;
+    height: auto;
+  }
+  .form{
+    width: 40vw;
+  }
+  .login-form input{
+    height: 6.15%;
+    font-size: 14px;
+    font-weight: 400;
+    width: 74%;
+    margin: 13px auto;
+  }
+  .form input{
+    height: 6.15%;
+    font-size: 14px;
+    font-weight: 400;
+    width: 75%;
+    margin: 12px auto;
+  }
+  .regbtn{
+      width: 78%;
+      height: 37px;
+      font-size: 20px;
+      font-weight: 500;
+   }
+   .main-heading{
+    font-size: 1.20em;
+    letter-spacing: 0.002em;
+   }
+   .login-form p{
+    font-size:11px;
+     margin:25px 30px;
+   }
+   .form p{
+    font-size: 11px;
+   }
+   
+}
+
+
+@media screen and (max-width:800px){
+ 
+  .main-container{
+    height: 90.5vh;
+  }
+  .login-form{
+    width: 41vw;
+    height: auto;
+  }
+  .form {
+    width: 43vw;
+  }
+  .login-form input{
+    height: 7%;
+    font-size: 14px;
+    font-weight: 400;
+    width: 74%;
+    margin: 13px auto;
+  }
+  .form input{
+    height: 7%;
+    font-size: 14px;
+    font-weight: 400;
+    width: 74%;
+    margin: 11px auto;
+  }
+  .regbtn{
+      width: 80%;
+      height: 37px;
+      font-size: 20px;
+      font-weight: 500;
+   }
+   .main-heading{
+    font-size: 1.10em;
+    letter-spacing: 0.002em;
+   }
+   .login-form p{
+    font-size:11px;
+     margin:25px 30px;
+   }
+.form p{
+  font-size:11px;
+}
+
+}
+@media screen and (max-width:660px){
+  .main-container{
+    height: 90.5vh;
+  }
+  .login-form{
+    width: 51vw;
+    height: 56vh;
+  }
+  .form {
+    width: 50vw;
+  }
+  .login-form input{
+    height: 5.80%;
+    font-size: 13px;
+    font-weight: 400;
+    width: 73%;
+    margin: 11px auto;
+  }
+  .form input{
+    height: 5.80%;
+    font-size: 13px;
+    font-weight: 400;
+    width: 73%;
+    margin: 10px auto;
+  }
+  .regbtn{
+      width: 77%;
+      height: 34px;
+      font-size: 18px;
+      font-weight: 500;
+   }
+   .main-heading{
+    font-size: 1em;
+    letter-spacing: 0.002em;
+   }
+   .login-form p{
+    font-size:10px;
+     margin:25px 30px;
+   }
+   .form p{
+    font-size: 10px;
+   }
+   
+}
+
+
+@media screen and (max-width:500px){
+  .main-container{
+    height: 90.5vh;
+  }
+  
+  .login-form{
+    width: 60vw;
+    height: auto;
+  }
+  .form{
+    width: 60vw;
+  }
+  .login-form input{
+    height: 7%;
+    font-size: 11px;
+    font-weight: 400;
+    width: 72%;
+    margin: 5px auto;
+  }
+  .form input{
+    height: 7%;
+    font-size: 12px;
+    font-weight: 400;
+    width: 72%;
+    margin: 5px auto;
+  }
+  .regbtn{
+      width: 76%;
+      height: 31px;
+      font-size: 16px;
+      font-weight: 500;
+   }
+   .main-heading{
+    font-size: 1em;
+    letter-spacing: 0.002em;
+   }
+   .login-form p{
+    font-size:9.65px;
+     margin:25px 30px;
+   }
+   .form p{
+    font-size:9.65px;
+    margin:25px 30px;
+   }
+   
+
+}
+
+@media screen and (max-width:450px){
+  .main-container{
+    height: 90.5vh;
+  }
+  .form {
+    width: 73vw;
+  }
+  .form p{
+    font-size: 9.55px;
+    margin: 25px 30px;
+  }
+ 
+  
+  
+ 
+}
+@media screen and (max-width:376px){
+  .main-container{
+    height: 90.5vh;
+  }
+  .login-form{
+    width: 70vw;
+    height: auto;
+  }
+  .form {
+    width: 79vw;
+  }
+  .login-form input{
+    height: 6%;
+    font-size: 12px;
+    font-weight: 400;
+    width: 71%;
+    margin: 2px auto;
+  }
+  .form input{
+    height: 6%;
+    font-size: 11px;
+    font-weight: 400;
+    width: 71%;
+    margin: 1px auto;
+  }
+  .regbtn{
+      width: 75%;
+      height: 29px;
+      font-size: 15px;
+      font-weight: 500;
+   }
+   .main-heading{
+    font-size: 0.79em;
+    letter-spacing: 0.002em;
+   }
+   .login-form p{
+    font-size:9.54px;
+     margin:25px 30px;
+   }
+   .form p{
+    font-size: 9.54px;
+    margin: 25px 30px;
+   }
+  
+}
