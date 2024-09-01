@@ -55,7 +55,7 @@ const handleFileChange = (event) => {
   setLoad(true);
     
     try {
-      const response = await axios.post('http://localhost:8000/upload', formData, {
+      const response = await axios.post('https://kudosbackend.vercel.app/upload', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
